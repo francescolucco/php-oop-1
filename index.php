@@ -53,7 +53,7 @@ require_once __DIR__ . "/movie.php";
                      <div class="col-6">
                      <div class="box">
                      <i class="fa-solid fa-video"></i>
-                     <h1><?php echo $new_movie->titolo; ?></h1>
+                     <h1 class="title-box"><?php echo $new_movie->titolo; ?></h1>
                      <img src="<?php echo $new_movie->image; ?>" alt="">
                      <p>Genere: <strong><?php echo $new_movie->genere; ?></strong></p>
                      <p>Durata: <strong><?php echo $new_movie->durata; ?> minuti</strong></p>
