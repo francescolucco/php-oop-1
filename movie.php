@@ -8,6 +8,7 @@ class Movie {
    public $durata;
    public $anno_produzione;
    public $voto_MYmovies;
+   public $image;
 
 
    function __construct($_titolo, $_genere)

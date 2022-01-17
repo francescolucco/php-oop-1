@@ -1,0 +1,22 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+header{
+   height: 80px;
+   width: 100%;
+   display: fixed;
+   background-color: black;
+   color: white;
+}
+.titolo-header{
+   text-transform: uppercase;
+   font-size: 60px;
+   margin: 0 30px;
+}
+.fa-solid{
+   font-size: 40px;
+   margin:  0 15px;
+}
